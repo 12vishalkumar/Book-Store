@@ -1,0 +1,210 @@
+html,
+body,
+#root {
+	height: 100%;
+}
+
+#root > header,
+#root > main,
+#root > footer {
+	padding: 1rem;
+}
+
+.margin {
+	margin: 0em 5em;
+}
+
+.copyRight{
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.margin {
+		margin: 0;
+	}
+}
+
+.search {
+	padding: 20px;
+	margin: 20px;
+	display: grid;
+	justify-content: center;
+}
+
+.searchForm {
+	display: grid;
+	justify-content: space-around;
+	margin: 2em 8em;
+}
+
+.spinner {
+	display: grid;
+	justify-content: center;
+}
+
+.book-image {
+	max-height: 15rem;
+	max-width: 10rem;
+}
+
+.book-image:hover {
+	box-shadow: 3px 3px 5px 6px lightgray;
+	animation: zoomin 0.5s;
+}
+
+.book-box {
+	background: #16222a; 
+	background: -webkit-linear-gradient(
+		to right,
+		#3a6073,
+		#16222a
+	); 
+	background: linear-gradient(
+		to right,
+		#3a6073,
+		#16222a
+	); 
+
+	color: white;
+	margin: 18%;
+}
+
+.card-cascade-narrower {
+	img {
+		transform: scale(0.92) translateY(-2rem) translateX(-1em);
+		margin-bottom: -1rem;
+	}
+}
+
+
+.carousel {
+	display: grid;
+	justify-content: center;
+}
+
+.carousel-indicators li {
+	visibility: hidden;
+}
+
+.carousel-btn {
+	margin: 5px;
+}
+
+.authors {
+	padding: 8vh;
+	background: #0f2027;
+	background: -webkit-linear-gradient(
+		to right,
+		#0f2027,
+		#203a43,
+		#2c5364
+	); 
+	background: linear-gradient(
+		to right,
+		#0f2027,
+		#203a43,
+		#2c5364
+	);
+	color: white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.nyt-img {
+	max-height: 15rem;
+	max-width: 10rem;
+}
+
+.detail {
+	display: grid;
+	justify-content: center;
+	margin: 0 20%;
+}
+
+.page_404 {
+	padding: 40px 0;
+	background: #fff;
+}
+
+.page_404 img {
+	width: 80%;
+}
+
+.four_zero_four_bg {
+	background-image: url(https://www.google.com/imgres?q=Give%20the%20same%20gif%3A%20https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F285475%2Fscreenshots%2F2083086%2Fdribbble_1.gif&imgurl=https%3A%2F%2Fcdn.dribbble.com%2Fuserupload%2F4247585%2Ffile%2Fstill-12aaa26cf8f779d725d52b383359f3e6.gif%3Fresize%3D400x0&imgrefurl=https%3A%2F%2Fdribbble.com%2Ftags%2Fgif&docid=d5I4swLVclk-rM&tbnid=H0OLEdGCSCUM9M&vet=12ahUKEwinhdWlgrqFAxXETWwGHeipAvMQM3oECF4QAA..i&w=538&h=399&hcb=2&ved=2ahUKEwinhdWlgrqFAxXETWwGHeipAvMQM3oECF4QAA);
+	height: 400px;
+	background-position: center;
+}
+
+.four_zero_four_bg h1 {
+	font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+	font-size: 80px;
+}
+
+.link_404 {
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background: #39ac31;
+	margin: 20px 0;
+	display: inline-block;
+}
+.contant_box_404 {
+	margin-top: -50px;
+}
+
+.nav {
+	color: white;
+	background: #0f2027;
+	background: -webkit-linear-gradient(
+		to right,
+		#0f2027,
+		#203a43,
+		#2c5364
+	);
+	background: linear-gradient(
+		to right,
+		#0f2027,
+		#203a43,
+		#2c5364
+	); 
+}
+
+.white {
+	color: white !important;
+}
+
+#footer {
+	margin-top: 36.6%;
+	background: #f0f2f0; 
+	background: -webkit-linear-gradient(
+		to left,
+		#16222a,
+		#f0f2f0
+	); 
+	background: linear-gradient(
+		to left,
+		#16222a,
+		#f0f2f0
+	);
+	padding: 2.5vh 0;
+}
+
+.connect {
+	list-style-type: none;
+}
+
+.connect-img {
+	max-height: 15px;
+	max-width: 15px;
+}
+
+@import '~bootstrap/scss/bootstrap';
